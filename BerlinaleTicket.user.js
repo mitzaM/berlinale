@@ -2,6 +2,7 @@
 // @name         Berlinale ticket
 // @namespace    http://tampermonkey.net/
 // @version      0.1
+// @downloadURL	 https://github.com/mitzaM/berlinale/raw/main/BerlinaleTicket.user.js
 // @description  try to take over the world!
 // @author       mitzaM
 // @match        https://www.eventim.de/*
