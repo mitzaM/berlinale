@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name           RaChart™ Enhancer
-// @author         mitzaM
 // @description    Enhances Rachel's charts in SG by highlighting you the games you own already
 // @version        0.40.2
 // @namespace      https://mitzaman.ro/
