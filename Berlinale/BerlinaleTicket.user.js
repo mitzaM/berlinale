@@ -17,10 +17,14 @@ const NR_OF_TICKETS = 1;
     'use strict';
 
     window.addEventListener('load', function() {
-        var inputs = document.querySelectorAll('input[type=hidden].js-cc-amount-selection');
-        inputs.forEach(function(input) {
-            input.value = NR_OF_TICKETS;
-        });
+        var full_price = document.querySelector('div[data-tt-name="Full Price Ticket"]');
+        var input;
+        if (full_price) {
+            input = full_price.querySelector('input[type=hidden].js-cc-amount-selection');
+        } else {
+            input = document.querySelector('input[type=hidden].js-cc-amount-selection')
+        }
+        input.value = NR_OF_TICKETS;
         var add_cart = document.querySelectorAll('button[data-qa=TimeslotAddToShoppingCart1],button[data-qa=SeatAddToShoppingCart1],button[data-qa=AddToShoppingCart]')[0];
         if (add_cart) {
             add_cart.disabled = false;
