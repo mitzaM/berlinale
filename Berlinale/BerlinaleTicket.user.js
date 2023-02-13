@@ -2,7 +2,7 @@
 // @name           Berlinale Ticket
 // @author         mitzaM
 // @description    try to take over the world!
-// @version        1.0.0
+// @version        1.0.1
 // @namespace      https://mitzaman.ro/
 // @downloadURL    https://raw.githubusercontent.com/mitzaM/user-scripts/main/Berlinale/BerlinaleTicket.user.js
 // @updateURL      https://raw.githubusercontent.com/mitzaM/user-scripts/main/Berlinale/BerlinaleTicket.meta.js
